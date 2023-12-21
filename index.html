@@ -4,79 +4,81 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon Landing Page</title>
 </head>
 
 <body>
-    <div class="header">
+    <header> <!--deleted class element(class element not needed when there is only one header)-->
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
+        <nav> <!--added nav element-->
+        <!--deleted div class-->
+        <!--deleted unordered list element-->
+        <!--deleted list item element-->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
+                <!--deleted list item element-->
+                <!--deleted list item element-->
                     <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
+                <!--deleted list item element-->
+                <!--deleted list item element-->
                     <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            </nav>
+                <!--deleted list item element-->
+            <!--deleted unordered list item element-->
+        <!--deleted div class-->
+    </header>
+    <div class="content-seperator"></div> <!--div class is needed in this case to divide the contents on the html-->
+    <section class="content"><!--changed div to section element-->
+        <section id="search-engine-optimization" class="services"><!--changed div element to a section element also added id element and changed the 2nd class element to services-->
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="image description" /><!--added alt attribute for imagage description(need to add proper description)-->
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+        </section><!--change to closing section element-->
+        <section id="online-reputation-management" class="services"><!--changed div to section element and changed the 2nd class element to services-->
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="image description" /><!--added alt attribute for image description(need to add proper description)-->
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+        </section><!--added closing section element-->
+        <section id="social-media-marketing" class="services"><!--changed div to section element and changed the 2nd class element to servies-->
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="image description"/><!--added alt attribute for image description(need to add proper description)-->
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+        </section><!--changed to closing section element-->
+    </section><!--changed to closing section element-->
+    <section class="benefits"><!--changed div to section element-->
+        <section class="benefit-lead"><!--changed div to section element-->
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt="image description" /><!--added alt attribute for image description(still need to add proper description)-->
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+        </section><!--changed to closing section element-->
+        <section class="benefit-brand"><!--changed div to sevtion element-->
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt="image description"/><!--added alt attribute for image description(need to add description still)-->
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit-cost">
+        </section><!--changed div to closing section element-->
+        <section class="benefit-cost"><!--change div to section element-->
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <img src="./assets/images/cost-management.png" alt="turning gear with 3 money signs"/><!--added alt attribute to add a image description-->
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+        </section><!--changed div to closing section element-->
+    </section><!--changed from div to closing section element-->
+   <footer><!--changed div class to footer only element-->
+        <h4>Made with ❤️️ by Horiseon</h4><!--changed from h2 to h4 as far as order-->
         <p>
             &copy; 2023 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer><!--changed div to closing footer element-->
 </body>
 
 </html>
