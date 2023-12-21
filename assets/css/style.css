@@ -35,14 +35,19 @@ header div ul li {/*removed the . to make a element header instead of class .hea
     margin-left: 25px;
 }
 
-a { /*i moved the header div content to the a element*/
+nav{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+
+a { /*i moved the header div content to the a element. removed because parent elemnt has the properties in it.*/
+   
     color: #ffffff;
     text-decoration: none;
+    padding-right: 5px; /*added padding to add proper spacing between buttons*/
 }
 
 p {
